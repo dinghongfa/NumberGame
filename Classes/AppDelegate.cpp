@@ -54,6 +54,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     pEngine->executeScriptFile(path.c_str());
 
     return true;
+    
 }
 
 // This function will be called when the app is inactive. When comes a phone call,it's be invoked too
