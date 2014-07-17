@@ -222,6 +222,7 @@
 		46C1009316BF786A00F74D54 /* tolua_fix.c in Sources */ = {isa = PBXBuildFile; fileRef = 46C1008A16BF786A00F74D54 /* tolua_fix.c */; };
 		46C59AD317641FF300F43DC3 /* AudioEngine.lua in Resources */ = {isa = PBXBuildFile; fileRef = 46C59AD117641FF300F43DC3 /* AudioEngine.lua */; };
 		46C59AD417641FF300F43DC3 /* CCBReaderLoad.lua in Resources */ = {isa = PBXBuildFile; fileRef = 46C59AD217641FF300F43DC3 /* CCBReaderLoad.lua */; };
+		EA6433841977D972008F99D1 /* GameOver.lua in Resources */ = {isa = PBXBuildFile; fileRef = EA6433831977D972008F99D1 /* GameOver.lua */; };
 		EA8D849A1977B93500DEFE8F /* Card.lua in Resources */ = {isa = PBXBuildFile; fileRef = EA8D84991977B93500DEFE8F /* Card.lua */; };
 		EA8EC1771977942C00029AF9 /* Main.lua in Resources */ = {isa = PBXBuildFile; fileRef = EA8EC1761977942C00029AF9 /* Main.lua */; };
 		EA8EC17919779C8D00029AF9 /* mn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA8EC17819779C8D00029AF9 /* mn.jpg */; };
@@ -745,6 +746,7 @@
 		46C1008B16BF786A00F74D54 /* tolua_fix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tolua_fix.h; sourceTree = "<group>"; };
 		46C59AD117641FF300F43DC3 /* AudioEngine.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AudioEngine.lua; sourceTree = "<group>"; };
 		46C59AD217641FF300F43DC3 /* CCBReaderLoad.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CCBReaderLoad.lua; sourceTree = "<group>"; };
+		EA6433831977D972008F99D1 /* GameOver.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameOver.lua; sourceTree = "<group>"; };
 		EA8D84991977B93500DEFE8F /* Card.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Card.lua; sourceTree = "<group>"; };
 		EA8EC1761977942C00029AF9 /* Main.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Main.lua; sourceTree = "<group>"; };
 		EA8EC17819779C8D00029AF9 /* mn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mn.jpg; sourceTree = "<group>"; };
@@ -2081,6 +2083,7 @@
 		F293BC4615EB859D00256477 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EA6433831977D972008F99D1 /* GameOver.lua */,
 				EA8EC1761977942C00029AF9 /* Main.lua */,
 				EA8D84991977B93500DEFE8F /* Card.lua */,
 				EA8EC17819779C8D00029AF9 /* mn.jpg */,
@@ -2166,6 +2169,7 @@
 			files = (
 				15C156981683138E00D239F2 /* Default-568h@2x.png in Resources */,
 				15C156991683138E00D239F2 /* Default.png in Resources */,
+				EA6433841977D972008F99D1 /* GameOver.lua in Resources */,
 				EA8D849A1977B93500DEFE8F /* Card.lua in Resources */,
 				15C1569A1683138E00D239F2 /* Default@2x.png in Resources */,
 				15C1569B1683138E00D239F2 /* Icon-57.png in Resources */,

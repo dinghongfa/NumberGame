@@ -1,11 +1,12 @@
 
 require("Card")
+require("GameOver")
 
 
-function Main()
+function Game()
 	
 	local self = CCScene:create()
-	-- print("Main!!!!!!!!!!!!!")
+	-- print("Game!!!!!!!!!!!!!")
 	local layer
 	local allPoints
 	local allCards={}
@@ -92,6 +93,8 @@ function Main()
 					--如果所有的点对了，就成功
 					if table.maxn(allCards) <=0 then
 						print("success")
+						local scene = GameOver()
+        				CCDirector:sharedDirector():replaceScene(CCTransitionFadeDown:create(0.5,scene))
 					end
 					currentNum = currentNum + 1
 				end
@@ -134,15 +137,15 @@ end
 
 
 -- 主程序
-local  function __main()
+local  function __Game()
 	CCEGLView:sharedOpenGLView():setDesignResolutionSize(800,480,kResolutionShowAll)
 	
 	-- 不显示游戏帧频
 	local dir = CCDirector:sharedDirector()
 	dir:setDisplayStats(false)
 
-    dir:runWithScene(Main())
+    dir:runWithScene(Game())
 end 
 
-__main()
+__Game()
 
